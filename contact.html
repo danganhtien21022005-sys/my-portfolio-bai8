@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ | Đặng Anh Tiến</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">TienDang<span>.dev</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="projects.html">Dự án (6)</a>
+        <a href="contact.html" class="active">Liên hệ</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="Chuyển giao diện Sáng/Tối">🌙</button>
+        <button id="menuToggle" class="menu-btn" aria-label="Mở menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner reveal">
+      <div class="container">
+        <h1>Liên hệ với mình</h1>
+        <p>Form liên hệ HTML tích hợp Formspree miễn phí</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container contact-wrapper">
+        <div class="card-box">
+          <h2>Gửi tin nhắn trực tiếp</h2>
+          <p class="form-note">Thay mã <code>your-form-id</code> bằng Form ID của bạn tại <strong>formspree.io</strong> để nhận email thật.</p>
+          <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Họ và tên</label>
+              <input type="text" id="name" name="name" placeholder="Nhập họ tên của bạn" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Địa chỉ Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Chủ đề</label>
+              <input type="text" id="subject" name="subject" placeholder="Trao đổi dự án / Thực tập" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Nội dung lời nhắn</label>
+              <textarea id="message" name="message" rows="5" placeholder="Nhập nội dung chi tiết..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Gửi qua Formspree</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Đặng Anh Tiến. Deployed with HTTPS &amp; Cloudflare CDN.</p>
+      <div class="footer-links">
+        <a href="https://github.com/danganhtien21022005-sys" target="_blank" rel="noopener">GitHub</a>
+        <a href="projects.html">Dự án</a>
+        <a href="contact.html">Liên hệ</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

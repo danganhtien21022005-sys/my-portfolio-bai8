@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đặng Anh Tiến | Full-stack Web Developer Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">TienDang<span>.dev</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Trang chủ</a>
+        <a href="about.html">Giới thiệu</a>
+        <a href="projects.html">Dự án (6)</a>
+        <a href="contact.html">Liên hệ</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="Chuyển giao diện Sáng/Tối" title="Chuyển chế độ Sáng/Tối">🌙</button>
+        <button id="menuToggle" class="menu-btn" aria-label="Mở menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge">Sinh viên Công nghệ Thông tin • Web Developer</span>
+          <h1>Xin chào! Mình là <span>Đặng Anh Tiến</span></h1>
+          <p>Xây dựng giao diện web hiện đại, tối ưu tốc độ tải trang và trải nghiệm người dùng trên mọi thiết bị.</p>
+          <div class="hero-buttons">
+            <a href="projects.html" class="btn btn-primary">Xem 6 Dự án</a>
+            <a href="contact.html" class="btn btn-outline">Liên hệ ngay</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/avatar.jpg" alt="Ảnh chân dung Đặng Anh Tiến" class="avatar-lg">
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2>Dự án tiêu biểu</h2>
+          <a href="projects.html" class="link-more">Xem tất cả 6 dự án →</a>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="card-tag">JavaScript ES6+</div>
+            <h3>01. Todo List Thông Minh</h3>
+            <p>Ứng dụng quản lý công việc cá nhân có lọc trạng thái, tìm kiếm nhanh và lưu trữ bền vững bằng LocalStorage.</p>
+            <div class="tech-stack"><span>HTML5</span><span>CSS3</span><span>JS</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="card-tag">REST API</div>
+            <h3>02. Weather Forecast App</h3>
+            <p>Ứng dụng dự báo thời tiết theo thành phố sử dụng Fetch API, bất đồng bộ Async/Await và giao diện mobile-first.</p>
+            <div class="tech-stack"><span>HTML5</span><span>CSS Grid</span><span>Fetch API</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="card-tag">Cloud &amp; CDN</div>
+            <h3>03. Personal Portfolio Pro</h3>
+            <p>Website cá nhân đa trang tích hợp Dark Mode, Intersection Observer và triển khai HTTPS qua Vercel &amp; Cloudflare.</p>
+            <div class="tech-stack"><span>Responsive</span><span>Dark Mode</span><span>HTTPS</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Đặng Anh Tiến. Deployed with HTTPS &amp; Cloudflare CDN.</p>
+      <div class="footer-links">
+        <a href="https://github.com/danganhtien21022005-sys" target="_blank" rel="noopener">GitHub</a>
+        <a href="projects.html">Dự án</a>
+        <a href="contact.html">Liên hệ</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
